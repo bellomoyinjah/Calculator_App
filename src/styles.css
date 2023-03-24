@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  text-align: right;
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  font-size: 20px;
+}
